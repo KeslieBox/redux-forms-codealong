@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CreateTodo from './components/todos/CreateTodo'
 
+// step 2
+// creates child component: CreateTodo
 class App extends Component {
   render() {
     return (
@@ -10,5 +12,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
